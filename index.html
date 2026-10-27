@@ -21,12 +21,12 @@
 <body>
 <main>
 <h1>Yuzu Springs privacy policy</h1>
-<p class="updated">Last updated 26 October 2026</p>
+<p class="updated">Last updated 27 October 2026</p>
 
 <div class="short">
 <p><strong>In short:</strong> Yuzu Springs works without sending anything anywhere. It only sends
 something if you join the leaderboards. Then it sends your name there (a made-up one the game picked for you, or
-your Discord username if you choose) and three totals. You can leave at any time.</p>
+your Discord username if you choose), three totals and the coins you have. You can leave at any time.</p>
 </div>
 <p>The same policy is in the game: in Settings → More → Privacy, and behind Privacy on the Leaderboards' Join card.</p>
 
@@ -48,31 +48,44 @@ the game sends:</p>
 <ul>
 <li>your name on the boards: the made-up name the game picked for you, such as "Sleepy Otter 4127", or your Discord
 username if you choose <strong>Discord name</strong> (below). You never type a name.</li>
-<li>three totals, all time and for this week: coins earned, guests welcomed, and time the spring has
-been open.</li>
-<li>with this week's totals, the number of your weekly league (1, 2, 3 and so on), which the game works out from
-your all-time place, so it can show you the players you race that week.</li>
+<li>three totals: coins earned, guests welcomed, and time the spring has been open. Our check (below) works out
+this week's from them.</li>
+<li>the coins your spring has at that moment, so our check can tell a real spring from an edited save.</li>
+<li>the number of your weekly league (1, 2, 3 and so on), which the game works out from your all-time place, so it
+can show you the players you race that week.</li>
 <li>an anonymous player ID. Unity's sign-in service makes this ID when you join. It isn't linked to
 your name, email or any account.</li>
 </ul>
 <p>Like any internet connection, it also shows your IP address to the service it connects to.</p>
 <p>All players can see the names, places and scores on the boards. Nobody else sees the
 player ID.</p>
-<p>We use this only to show the leaderboards. The legal basis is your consent: you choose Join, and
-pressing <strong>Leave</strong> stops all sending at once.</p>
+<p>We use this only to show the leaderboards and keep them fair. The legal basis is your consent: you choose Join,
+and pressing <strong>Leave</strong> stops all sending at once.</p>
+
+<h2>Keeping the boards fair</h2>
+<p>Players can't write to the boards themselves. Each time the game sends your totals, a small check of ours on
+Unity's servers compares them with your last ones and the time since, and only puts them on the boards if a spring
+could really have grown that fast. To do that, it keeps your last few totals, when they came, where this week
+started, your Discord username if you linked it, and the totals and coins of the last few sends it found impossible.
+Only the server can read this, not other players or the game. If your totals grow faster than any spring can, or your
+spring has more coins than it could have earned (a changed save or game), your scores are set to 0 on every board, the
+game starts that spring again from one wooden tub, and the Yuzu Springs Discord server removes that player's rank. The
+new spring goes on the boards as it grows.</p>
 
 <h2>If you use your Discord name</h2>
 <p>Only if you press <strong>Discord name</strong> in the Guestbook: Discord's own sign-in opens in your browser and
-asks your OK to share your account's basic details with the game (Discord calls this "identify"). The game reads only
-your username from them, uses it as your name on the boards in place of the made-up one, and gives the access straight
-back to Discord. It keeps nothing else from Discord. The game first checks the username for rude words, and won't use
-one that fails. Your scores then carry a note that the name is a Discord username, so the Yuzu Springs Discord server
-can give you a rank role (Common to Ungodly) for your all-time coins earned. <strong>New name</strong> goes back to a made-up name. Discord's privacy policy:
+asks your OK to share your account's basic details with the game (Discord calls this "identify"). The game passes the
+access Discord gives it to our check on Unity's servers, which asks Discord for your username, so nobody can use
+someone else's, then the game gives the access straight back to Discord. Only the username is kept, as your name on the
+boards in place of the made-up one. It is first checked for rude words, and one that fails isn't used. Your scores
+then carry a note that the name is a Discord username, so the Yuzu Springs Discord server
+can give you a rank role (Common to Ungodly) for your all-time coins earned. Once linked, it stays your name on the
+boards: <strong>Leave</strong> stops sending your scores, and an email to us removes those already sent. Discord's privacy policy:
 <a href="https://discord.com/privacy">discord.com/privacy</a>.</p>
 
 <h2>Who handles it</h2>
-<p>The leaderboards run on Unity Gaming Services from Unity Technologies (Authentication and
-Leaderboards). Unity stores this data for us and may process it outside the UK, including in the
+<p>The leaderboards and our check run on Unity Gaming Services from Unity Technologies (Authentication,
+Leaderboards, Cloud Code, which runs the check, and Cloud Save, which keeps what it needs). Unity stores this data for us and may process it outside the UK, including in the
 United States. Unity's own privacy policy explains how they look after it:
 <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a>. We don't sell
 or share it with anyone else.</p>
@@ -92,7 +105,7 @@ show. Pressing Leave stops new scores. Scores already sent stay until you ask.</
 
 <h2>Removing your scores</h2>
 <p>Email <strong><a href="mailto:SullifishStudios@outlook.com">SullifishStudios@outlook.com</a></strong> with the name shown in the game. We remove your
-scores from every board within one month. Press Leave first, or the game sends your totals again
+scores from every board, and what our check kept, within one month. Press Leave first, or the game sends your totals again
 when they change.</p>
 
 <h2>Children</h2>
